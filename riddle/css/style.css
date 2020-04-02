@@ -401,6 +401,18 @@ ol {
   padding: 350px 0;
 }
 
+.intro-section-about {
+  padding: 100px 0;
+}
+
+.intro-section-publication {
+  padding: 100px 0;
+}
+
+.intro-section-project {
+  padding: 100px 0;
+}
+
 /*------------------------
     Portfolio Section
 --------------------------*/
@@ -784,10 +796,13 @@ video{
 .out-of-movie{
 /*    padding-top: 5%;*/
     background-color: white;
+}
 
 
-
-
+h3#News {
+    text-align: center;
+    margin-right: 2.14285714em;
+}
 
 
 /* .intro_with_image { 
