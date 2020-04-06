@@ -490,6 +490,7 @@ ol {
   letter-spacing: 0;
 }
 
+/*
 .member-pic:hover .pi-inner {
   background: rgba(0, 20, 24, 0.8);
 }
@@ -498,6 +499,7 @@ ol {
   opacity: 1;
   letter-spacing: 0;
 }
+*/
 
 .portfolio-meta {
   padding-bottom: 45px;
@@ -829,7 +831,7 @@ h3#News {
 
 .member-pic img{
     border: 2px #000 solid;
-    width: 75%;
+    width: 50%;
 }
 
 
