@@ -405,6 +405,11 @@ ol {
   padding: 100px 0;
 }
 
+.intro-section-about p {
+  font-size: 14px;
+
+}
+
 .intro-section-publication {
   padding: 100px 0;
 }
@@ -489,6 +494,54 @@ ol {
   opacity: 1;
   letter-spacing: 0;
 }
+
+
+/* 　ここから　　*/
+.portfolio-item-2 {
+  display: block;
+  width: 100%;
+  height: 250px;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolio-item-2 .pi-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: transparent;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.portfolio-item-2 .pi-inner h2 {
+  opacity: 0;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  color: #fff;
+  letter-spacing: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.portfolio-item-2:hover .pi-inner {
+  background: rgba(0, 20, 24, 0.8);
+}
+
+.portfolio-item-2:hover .pi-inner h2 {
+  opacity: 1;
+  letter-spacing: 0;
+}
+
+/*ここまで*/
 
 /*
 .member-pic:hover .pi-inner {
@@ -602,6 +655,10 @@ ol {
 .milestone h2 span {
   font-size: 18px;
   color: #979797;
+}
+
+.page-section h3 {
+    padding-top: 10px;
 }
 
 /*------------------------
@@ -832,7 +889,10 @@ h3#News {
 .member-pic img{
     border: 2px #000 solid;
     width: 50%;
+    
 }
+
+
 
 
 /* .intro_with_image { 

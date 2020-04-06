@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shuji Oishi @ AIST | VITAMIN-E : VIsual Tracking And MappINg with Extremely Dense Feature Points </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="Description" lang="en" content="Shuji Oishi's website">
+        <meta name="author" content="Shuji Oishi">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="shuji, oishi, aist, research, website, publication, robotics, navigation, reflectance, Toyohashi, Kyushu, AIST, 豊橋，九州, 産総研, 大石, 修士"/>
+
+        <!-- icons -->
+        <link rel="shortcut icon" href="myFavicon.ico">
+
+        <!-- Bootstrap Core CSS file -->
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+        <!-- font-awesome css -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+        <!-- social icons css -->
+        <link rel="stylesheet" href="../../css/bootstrap-social.css">
+
+        <!-- Google fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- Override CSS file - add your own CSS rules -->
+        <link rel="stylesheet" href="../../css/project.css">
+
+    </head>
+
+    <body data-gr-c-s-loaded="true" data-hasqtip="0" class="vsc-initialized">
+        <div class="container">
+            <div id="project_title" class="row">
+                <div class="col-md-12">
+                    <h2>VITAMIN-E : VIsual Tracking And MappINg with Extremely Dense Feature Points</h2>
+                    <ul class="list-inline">
+                        <li>Masashi Yokozuka</li>
+                        <li><a href="../../../index.html">Shuji Oishi</a></li>
+                        <li>Simon Thompson</li>
+                        <li>Atsuhiko Banno</li>
+                    </ul>
+                    <p>2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR2019)</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="./overview.jpg">
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Abstract</h2>
+                    <p>
+                    In this paper, we propose a novel indirect monocular SLAM algorithm called “VITAMIN-E,” which is highly accurate and robust as a result of tracking extremely dense feature points. 
+                    Typical indirect methods have difficulty in reconstructing dense geometry because of their careful feature point selection for accurate matching. Unlike conventional methods, the proposed method processes an enormous number of feature points by tracking the local extrema of curvature informed by dominant flow estimation.
+                    Because this may lead to high computational cost during bundle adjustment, we propose a novel optimization technique, the ”subspace Gauss–Newton method”, that significantly improves the computational efficiency of bundle adjustment by partially updating the variables.
+                    We concurrently generate meshes from the reconstructed points and merge them for an entire 3D model.
+                    The experimental results on the SLAM benchmark dataset EuRoC demonstrated that the proposed method outperformed state-of-the-art SLAM methods, such as DSO, ORB-SLAM, and LSD-SLAM, both in terms of accuracy and robustness in trajectory estimation.
+                    The proposed method simultaneously generated significantly detailed 3D geometry from the dense feature points in real time using only a CPU.
+                    </p>
+                </div>
+            </div><br/>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Download</h2>
+                    <ul class="fa-ul">
+                        <li> <i class="fa-li fa fa-file-text"></i><a href="../../papers/published/VITAMIN-E_CVPR2019.pdf" target="_blank">Paper</a></li>
+                    </ul><br/>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Video</h2>
+                    <iframe width="840" height="472" src="https://www.youtube.com/embed/yfKccCmmMsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div><br/>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Publication</h2>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a name="Yokozuka_CVPR2019" id="Yokozuka_CVPR2019"></a>
+                            @inproceedings{Yokozuka_CVPR2019,<br>
+                            author    = {Masashi Yokozuka and Shuji Oishi and Simon Thompson and Atsuhiko Banno},<br>
+                            title     = {VITAMIN-E : VIsual Tracking And MappINg with Extremely Dense Feature Points},<br>
+                            booktitle = {2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR2019)},<br>
+                            pages = {pp.9641--9650},<br>
+                            year   = {2019},<br>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
