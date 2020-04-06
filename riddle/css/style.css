@@ -490,6 +490,15 @@ ol {
   letter-spacing: 0;
 }
 
+.member-pic:hover .pi-inner {
+  background: rgba(0, 20, 24, 0.8);
+}
+
+.member-pic:hover .pi-inner h2 {
+  opacity: 1;
+  letter-spacing: 0;
+}
+
 .portfolio-meta {
   padding-bottom: 45px;
 }
