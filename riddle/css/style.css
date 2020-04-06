@@ -556,9 +556,10 @@ ol {
     About Page
 --------------------------*/
 .pic-frame {
-  position: relative;
+  position: relative;/*
   padding-left: 25px;
   padding-bottom: 25px;
+*/
   display: inline-block;
 }
 
@@ -566,12 +567,18 @@ ol {
   position: absolute;
   content: "";
   width: calc(100% - 25px);
-  height: calc(100% - 25px);
+  height: calc(100% - 100px);
   bottom: 0;
   left: 0;
   border: 2px solid #000;
   z-index: 1;
 }
+
+.tmp-area{
+    width: 100%;
+    height :50px;
+}
+
 
 .milestone {
   margin-top: 15px;
@@ -799,9 +806,21 @@ video{
 }
 
 
+/* When using twitter
 h3#News {
     text-align: center;
     margin-right: 2.14285714em;
+}
+*/
+
+h3#News {
+    padding-top: 5px
+    
+}
+
+.member-pic img{
+    border: 2px #000 solid;
+    width: 75%;
 }
 
 
