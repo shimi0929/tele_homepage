@@ -893,7 +893,13 @@ h3#News {
 }
 
 
-
+.bottom-frame {
+    border:solid 1px black;
+    
+}
+.bottom-frame p{
+    margin:5px 5px 5px 5px;
+}
 
 /* .intro_with_image { 
   background:url(img/intro_img.jpg) center no-repeat; 
