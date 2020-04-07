@@ -899,6 +899,22 @@ h3#News {
 }
 .bottom-frame p{
     margin:5px 5px 5px 5px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.project-page p {
+    font-size: 1.0em;
+    line-height: 1.2em;
+    
+}
+
+.project-page h2 {
+    font-size: 30px;
+}
+
+.project-page section.intro-section-project {
+    padding-bottom: 25px !important;
 }
 
 /* .intro_with_image { 
