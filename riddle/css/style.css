@@ -543,7 +543,7 @@ ol {
 
 /*ここまで*/
 
-/*
+/* これは使わないかも
 .member-pic:hover .pi-inner {
   background: rgba(0, 20, 24, 0.8);
 }
@@ -709,6 +709,10 @@ ol {
 /*------------------------
     Contact Page
 --------------------------*/
+
+
+
+/*
 .contect-tect {
   text-align: center;
   margin-bottom: 70px;
@@ -763,6 +767,7 @@ ol {
 .contact-form ::placeholder {
   font-style: italic;
 }
+*/
 
 /* ===========================
   Responsive
@@ -886,12 +891,27 @@ h3#News {
     
 }
 
+
+/*
 .member-pic img{
     border: 2px #000 solid;
     width: 50%;
     
 }
+*/
 
+/*
+
+.member-pic h3,
+.member-pic p{
+    display:inline;
+}
+*/
+
+.member-pic h3 {
+    font-size: 30px;
+    margin-top: 20px;
+}
 
 .bottom-frame {
     border:solid 1px black;
