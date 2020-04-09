@@ -661,6 +661,11 @@ ol {
     padding-top: 10px;
 }
 
+.page-section h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 /*------------------------
     Blog Page
 --------------------------*/
@@ -879,18 +884,6 @@ video{
 }
 
 
-/* When using twitter
-h3#News {
-    text-align: center;
-    margin-right: 2.14285714em;
-}
-*/
-
-h3#News {
-    padding-top: 5px
-    
-}
-
 
 /*
 .member-pic img{
@@ -907,6 +900,16 @@ h3#News {
     display:inline;
 }
 */
+
+
+.publication-content h3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+} 
+
+.publication-content li {
+    padding-bottom: 10px;
+}
 
 .member-pic h3 {
     font-size: 30px;
